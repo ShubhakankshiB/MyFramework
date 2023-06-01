@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 217.061 s <<< FAILURE! - in TestSuite
+ProductErrorValidation(ShubhakankshiBhukta.tests.ErrorValidationsTest)  Time elapsed: 13.394 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button _ngcontent-snq-c33="" routerlink="/dashboard/cart" class="btn btn-custom" style="margin-top: -10px;" tabindex="0">...</button> is not clickable at point (1199, 26). Other element would receive the click: <div _ngcontent-snq-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
+  (Session info: chrome=113.0.5672.126)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3243754ca38b10e816415cb8f4a5e947, clickElement {id=869877613A381F2D1B7669416CB672B9_element_32}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/35/cv7g6px1497...}, goog:chromeOptions: {debuggerAddress: localhost:64776}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64776/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (3243754ca38b10e816415cb8f4a5e947)] -> xpath: //button[contains(@routerlink,'cart')]]
+Session ID: 3243754ca38b10e816415cb8f4a5e947
+	at ShubhakankshiBhukta.tests.ErrorValidationsTest.ProductErrorValidation(ErrorValidationsTest.java:49)
+
